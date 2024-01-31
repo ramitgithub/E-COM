@@ -1,0 +1,47 @@
+<div class="my-orders">
+    <h1>My Orders</h1>
+    <ng-container *ngIf="orderData?.length">
+    <div class="row order-data text-center text-bold">
+        <div class="col-lg-2">
+            <span>Order</span>
+        </div>
+        <div class="col-lg-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-lg-2">
+            <span>Price</span>
+        </div>
+        <div class="col-lg-2">
+            <span>Status</span>
+        </div>
+        <div class="col-lg-2">
+            <span>Action</span>
+        </div>
+    </div>
+        <div class="row order-data text-center" *ngFor="let order of orderData">
+            <div class="col-lg-2">
+                <img class="order-img" src="https://tse1.mm.bing.net/th?id=OIP.ahrFOmxN5Q-yLCCc7MePNAHaHa&pid=Api&P=0&h=180" alt="">
+            </div>
+            <div class="col-lg-2">
+                <span>{{order.id}}</span>
+            </div>
+            <div class="col-lg-2">
+                <span>{{order.totalPrice}}</span>
+            </div>
+            <div class="col-lg-2">
+                <span>In Process</span>
+            </div>
+            <div class="col-lg-2">
+                <span><button class="form-button" (click)="cancelOrder(order.id)">Cancel Order</button></span>
+            </div>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="!orderData?.length">
+        <div class="row justify-content-center text-center text-danger">
+            <div class="col-lg-6">
+                <h3>you haven't ordered anyting yet, please order the product first</h3>
+                <button class="home-button" routerLink="/" >Go To Homepage</button>
+            </div>
+        </div>
+    </ng-container>
+    </div>

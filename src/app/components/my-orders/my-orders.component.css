@@ -1,0 +1,9 @@
+.my-orders h1{
+    margin: 10px 0;
+}
+.my-orders .order-img{
+    width: 100px;
+}
+.order-data{
+    border-bottom: 1px sollid #ddd;
+}

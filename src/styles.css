@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+.container-fulid{
+    margin: 0 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width:300px;
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border:1px solid blueviolet;
+    color: blueviolet
+}
+.form-button{
+    height: 40px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-button:hover{
+    color: white;
+    background-color: rgb(32, 29, 29);
+}
+.error-p{
+    color: red;
+}
+.message-p{
+    color: green;
+    text-align: center;
+}
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+}
+
+.home-button{
+    margin-top: 20px;
+    height: 40px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.home-button:hover{
+    background-color: rgb(32, 29, 29);
+}

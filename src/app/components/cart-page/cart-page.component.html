@@ -1,0 +1,54 @@
+<div class="cart-page" >
+    <h1>Cart Page</h1>
+    <div class="row justify-content-around" *ngIf="cartData?.length">
+        <div class="col-lg-8 details">
+            <ul *ngFor="let cart of cartData">
+                <li>
+                    <img [src]="cart.image" alt="">
+                </li>
+                <li>
+                    <span> {{cart.name}}</span>
+                </li>
+                <li>
+                    <span> Price : {{cart.price}}</span>
+                </li>
+                <li>
+                    <span> Quantity : {{cart.quantity}}</span>
+                </li>
+                <li>
+                    <button class="form-button" (click)="removeToCart(cart.id)">Remove to cart</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-4 summary">
+            <h3>Summary</h3>
+            <ul>
+                <li>
+                    <span>Amount</span> <span>{{priceSummary.price}}</span>
+                </li>
+                <li>
+                    <span>Tax</span> <span>{{priceSummary.tax}}</span>
+                </li>
+                <li>
+                    <span>Delivery</span> <span>{{priceSummary.deliveryCharge}}</span>
+                </li>
+                <li>
+                    <span>Discount</span> <span>{{priceSummary.discount}}</span>
+                </li>
+                <li>
+                    <span><h4>Total</h4></span> <span><h4>{{priceSummary.total}}</h4></span>
+                </li>
+                <button (click)="checkout()" class="form-button w-100">CheckOut</button>
+            </ul>
+        </div>
+    </div>
+    <div class="error-p mt-5" *ngIf="!cartData?.length">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-4">
+                <h3>Cart is Empty, Please add first product to cart!</h3>
+                <button class="home-button" routerLink="/" >Go To Homepage</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,458 @@
+{
+  "seller": [
+    {
+      "name": "ram sharma",
+      "email": "ramseller.com",
+      "password": "ram@1123",
+      "id": 1
+    },
+    {
+      "name": "soniya sharma",
+      "email": "soniyaseller.com",
+      "password": "soniya@1123",
+      "id": 2
+    },
+    {
+      "name": "hemu parihar",
+      "email": "hemuseller.com",
+      "password": "hemu@1123",
+      "id": 3
+    },
+    {
+      "name": "Vishal Tiwari",
+      "email": "vishal@gmail.com",
+      "password": "vishal@123",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "id": 1
+    },
+    {
+      "name": "vivo",
+      "price": "14000",
+      "color": "blue",
+      "category": "Mobile",
+      "description": "this is a vivo product",
+      "image": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1566877645605/3d70da5a34f5c05ebdb9085b5c27c978.jpg",
+      "id": 2
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "2500",
+      "color": "black",
+      "category": "Shoes",
+      "description": "Best shoes for Running",
+      "image": "https://i5.walmartimages.com/asr/9fbd62ae-c191-4de9-93b1-998bb4525be0_1.0904e1f970b4179fa9b424984e09444f.jpeg",
+      "id": 3
+    },
+    {
+      "name": "Hp Laptop",
+      "price": "100000",
+      "color": "white",
+      "category": "Laptop",
+      "description": "Hp Laptop for student and professionals",
+      "image": "https://i5.walmartimages.com/asr/a54cbe1b-2f3e-42e6-9297-faf3ba0eca3f.eebdaa839244aaa304fd2c3455b596e3.jpeg",
+      "id": 4
+    },
+    {
+      "name": "Suits",
+      "price": "6000",
+      "color": "Dark Blue",
+      "category": "Men's Suits",
+      "description": "Pin by Buck D on Suits | Well dressed men",
+      "image": "https://i.pinimg.com/originals/25/7f/a2/257fa295a43fc66db683a469051ad31c.png",
+      "id": 5
+    },
+    {
+      "name": "jackets",
+      "price": "2000",
+      "color": "pink",
+      "category": "Women's clothes",
+      "description": "New Winter Wear Dresses 2015 For Teen Girls By Papaya Clothing",
+      "image": "https://th.bing.com/th/id/R.5d188af7fe84aefea9ab43ec6d9f5da8?rik=%2fHw7ce5VGS7GYA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-7kAD6DOHckk%2fVEH-kebUk6I%2fAAAAAAAANZE%2fVqLMBEcyUuw%2fs1600%2fNew-Winter-Wear-Dresses-2015-For-Teen-Girls-By-Papaya-Clothing-10.jpg&ehk=GIvEkRCCJKh9TRPpsBef4oC8REvsszu54QwO2p9c4II%3d&risl=&pid=ImgRaw&r=0",
+      "id": 6
+    },
+    {
+      "name": "Jackets",
+      "price": "3000",
+      "color": "black",
+      "category": "Men's Clothes",
+      "description": "Buy Plus size 4XL 5XL fashion 2017 men's jackets ",
+      "image": "https://th.bing.com/th/id/OIP.TRUklDkn5Fa6o3mFldZ_7QHaHa?pid=ImgDet&rs=1",
+      "id": 7
+    },
+    {
+      "name": "Dresses",
+      "price": "10000",
+      "color": "pink",
+      "category": "Women's clothes",
+      "description": "Everything for Women Fashion: 10+ Beautiful Cocktail Dresses for Women",
+      "image": "https://2.bp.blogspot.com/-w3CHOiWEt54/UOf9syEszyI/AAAAAAAAIGg/JmPChqBAPWA/s1600/Cocktail-Dress-Collection.jpg",
+      "id": 8
+    },
+    {
+      "name": "t'shirt",
+      "price": "500",
+      "color": "white",
+      "category": "Men's clothes",
+      "description": "Nike - Nike Toddler Boys' Camo Graphic T-Shirt",
+      "image": "https://i5.walmartimages.com/asr/170ef551-f037-4170-aa8e-fc081929c8de_1.3e6d671755e5a294cbc2f4b30f155355.jpeg",
+      "id": 10
+    },
+    {
+      "name": "Cargo",
+      "price": "800",
+      "color": "Brown",
+      "category": "Men's Clothes",
+      "description": "Cargo Pants for Men Outfits for the Bold",
+      "image": "https://th.bing.com/th/id/R.b9601b6112a706a549aee7a8ccaff754?rik=ZoDZxNBoO3zCmQ&riu=http%3a%2f%2fwww.careyfashion.com%2ffashion%2fwp-content%2fuploads%2f2016%2f12%2fcargo-pants-for-men-9.jpg&ehk=L2CGGKV24f9PZO9C7YNbXs4iBanoACaipNdyor9r0v0%3d&risl=&pid=ImgRaw&r=0",
+      "id": 11
+    },
+    {
+      "name": "Clothes boys",
+      "price": "1000",
+      "color": "black",
+      "category": "baby's Clothes",
+      "description": "Cool Cute Clothes Baby Boy",
+      "image": "https://i.pinimg.com/originals/0b/21/48/0b214875e697c1dd92ac057767fb125b.jpg",
+      "id": 12
+    },
+    {
+      "name": "KTM",
+      "price": "150000",
+      "color": "black",
+      "category": "Bike's",
+      "description": " KTM offers 10 new models in India with most popular bikes being 200 Duke, 390 Duke and 250 Duke. ",
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard-20231681925367564.jpg?q=80",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "name": "Ram sharma",
+      "email": "ram736196@gmail.com",
+      "password": "ram@123",
+      "id": 1
+    },
+    {
+      "name": "Omika Mishra",
+      "email": "omika@gmail.com",
+      "password": "omika@123",
+      "id": 2
+    },
+    {
+      "name": "Rakhi kain",
+      "email": "rakhi@gmail.com",
+      "password": "rakhi@123",
+      "id": 3
+    },
+    {
+      "name": "lankesh",
+      "email": "lankesh@gmail.com",
+      "password": "lankesh@123",
+      "id": 4
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@gmail.com",
+      "password": "rohit1234",
+      "id": 5
+    },
+    {
+      "name": "Vishal Tiwari",
+      "email": "vishal@gmail.com",
+      "password": "vishal@123",
+      "id": 6
+    },
+    {
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "password": "raju@123",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 2
+    },
+    {
+      "name": "Jackets",
+      "price": "3000",
+      "color": "black",
+      "category": "Men's Clothes",
+      "description": "Buy Plus size 4XL 5XL fashion 2017 men's jackets ",
+      "image": "https://th.bing.com/th/id/OIP.TRUklDkn5Fa6o3mFldZ_7QHaHa?pid=ImgDet&rs=1",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "2500",
+      "color": "black",
+      "category": "Shoes",
+      "description": "Best shoes for Running",
+      "image": "https://www.depthlog.com/images/large/mens%20black%20nike%20running%20shoes-764qzs.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "name": "vivo",
+      "price": "14000",
+      "color": "blue",
+      "category": "Mobile",
+      "description": "this is a vivo product",
+      "image": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1566877645605/3d70da5a34f5c05ebdb9085b5c27c978.jpg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": null,
+      "id": 9
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "2500",
+      "color": "black",
+      "category": "Shoes",
+      "description": "Best shoes for Running",
+      "image": "https://www.depthlog.com/images/large/mens%20black%20nike%20running%20shoes-764qzs.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 10
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 15
+    },
+    {
+      "name": "Hp Laptop",
+      "price": "100000",
+      "color": "white",
+      "category": "Laptop",
+      "description": "Hp Laptop for student and professionals",
+      "image": "https://i5.walmartimages.com/asr/a54cbe1b-2f3e-42e6-9297-faf3ba0eca3f.eebdaa839244aaa304fd2c3455b596e3.jpeg",
+      "quantity": 3,
+      "productId": 4,
+      "userId": null,
+      "id": 16
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "2500",
+      "color": "black",
+      "category": "Shoes",
+      "description": "Best shoes for Running",
+      "image": "https://www.depthlog.com/images/large/mens%20black%20nike%20running%20shoes-764qzs.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 17
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 19
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 20
+    },
+    {
+      "name": "Dresses",
+      "price": "10000",
+      "color": "pink",
+      "category": "Women's clothes",
+      "description": "Everything for Women Fashion: 10+ Beautiful Cocktail Dresses for Women",
+      "image": "https://2.bp.blogspot.com/-w3CHOiWEt54/UOf9syEszyI/AAAAAAAAIGg/JmPChqBAPWA/s1600/Cocktail-Dress-Collection.jpg",
+      "quantity": 4,
+      "productId": 8,
+      "userId": null,
+      "id": 22
+    },
+    {
+      "name": "Hp Laptop",
+      "price": "100000",
+      "color": "white",
+      "category": "Laptop",
+      "description": "Hp Laptop for student and professionals",
+      "image": "https://i5.walmartimages.com/asr/a54cbe1b-2f3e-42e6-9297-faf3ba0eca3f.eebdaa839244aaa304fd2c3455b596e3.jpeg",
+      "quantity": 3,
+      "productId": 4,
+      "userId": null,
+      "id": 23
+    },
+    {
+      "name": "Cargo",
+      "price": "800",
+      "color": "Brown",
+      "category": "Men's Clothes",
+      "description": "Cargo Pants for Men Outfits for the Bold",
+      "image": "https://th.bing.com/th/id/R.b9601b6112a706a549aee7a8ccaff754?rik=ZoDZxNBoO3zCmQ&riu=http%3a%2f%2fwww.careyfashion.com%2ffashion%2fwp-content%2fuploads%2f2016%2f12%2fcargo-pants-for-men-9.jpg&ehk=L2CGGKV24f9PZO9C7YNbXs4iBanoACaipNdyor9r0v0%3d&risl=&pid=ImgRaw&r=0",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 11,
+      "id": 24
+    },
+    {
+      "name": "t'shirt",
+      "price": "500",
+      "color": "white",
+      "category": "Men's clothes",
+      "description": "Nike - Nike Toddler Boys' Camo Graphic T-Shirt",
+      "image": "https://i5.walmartimages.com/asr/170ef551-f037-4170-aa8e-fc081929c8de_1.3e6d671755e5a294cbc2f4b30f155355.jpeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 10,
+      "id": 25
+    },
+    {
+      "name": "Clothes boys",
+      "price": "1000",
+      "color": "black",
+      "category": "baby's Clothes",
+      "description": "Cool Cute Clothes Baby Boy",
+      "image": "https://i.pinimg.com/originals/0b/21/48/0b214875e697c1dd92ac057767fb125b.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 12,
+      "id": 26
+    },
+    {
+      "name": "vivo",
+      "price": "14000",
+      "color": "blue",
+      "category": "Mobile",
+      "description": "this is a vivo product",
+      "image": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1566877645605/3d70da5a34f5c05ebdb9085b5c27c978.jpg",
+      "quantity": 1,
+      "userId": 5,
+      "productId": 2,
+      "id": 27
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "userId": 6,
+      "productId": 1,
+      "id": 28
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 3,
+      "userId": 7,
+      "productId": 1,
+      "id": 29
+    },
+    {
+      "name": "Iphone 14",
+      "price": "150000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "An Apple product",
+      "image": "https://m.xcite.com/media/catalog/product//i/p/iphone_14_pro_-_black_1_4.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 30
+    }
+  ],
+  "orders": [
+    {
+      "email": "ram736196@gmail.com",
+      "address": "Gwalior",
+      "contact": "546546",
+      "totalPrice": 2360,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "ra",
+      "address": "dd",
+      "contact": "dd",
+      "totalPrice": 14060,
+      "userId": 5,
+      "id": 2
+    },
+    {
+      "email": "ram736196@gmail.com",
+      "address": "Gwalior",
+      "contact": "gfhg",
+      "totalPrice": 150060,
+      "userId": 6,
+      "id": 3
+    },
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 450060,
+      "userId": 7,
+      "id": 4
+    }
+  ]
+}
